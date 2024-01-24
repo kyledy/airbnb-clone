@@ -8,11 +8,17 @@ I really like the interface and functionality of Airbnb's website, so I wanted t
 - Make sure that you have Node.js installed on your computer. 
 - Clone the repository onto your local machine.
 - Open an instance of the terminal.
-- Navigate to the client folder.
-- Run "npm install".
-- Run "yarn".
-- Run "yarn dev".
-- You should be presented with a localhost link to the application. Follow the link and enjoy!
+- Set the current working directory to the project folder. 
+- Enter "npm install" to install all the required dependencies. 
+- Run the client and server-side scripts, as outlined below. 
+
+# Server 
+- Set the current working directory to the api folder. 
+- Enter "npx nodemon index.js". 
+
+# Client 
+- Set the current working directory to the client folder. 
+- Enter "yarn dev". 
 
 ## Credits 
 Majority of the source code and styles are adapted from the YouTube channel "Coding with Dawid".
