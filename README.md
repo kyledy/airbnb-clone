@@ -22,3 +22,5 @@ I really like the interface and functionality of Airbnb's website, so I wanted t
 
 ## Credits 
 Majority of the source code and styles are adapted from the YouTube channel "Coding with Dawid".
+
+Most of the icons used in the project are taken from heroicons.com.
