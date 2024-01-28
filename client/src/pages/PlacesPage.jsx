@@ -10,7 +10,7 @@ export default function PlacesPage() {
     const [addedPhotos, setAddedPhotos] = useState([]);
     const [photoLink, setPhotoLink] = useState('');
     const [description, setDescription] = useState('');
-    const [features, setFeatures] = useState('');
+    const [features, setFeatures] = useState([]);
     const [extraInfo, setExtraInfo] = useState('');
     const [checkIn, setCheckIn] = useState('');
     const [checkOut, setCheckOut] = useState('');
@@ -70,7 +70,7 @@ export default function PlacesPage() {
                     <div className="mt-2 gap-2 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
                         {addedPhotos.length > 0 && addedPhotos.map(link => (
                             // eslint-disable-next-line react/jsx-key
-                            <div className="h-32 flex">
+                            <div className="h-32 flex" key={link}>
                                 <img className="rounded-2xl w-full object-cover position-center" src={'http://localhost:4000/uploads/'+link} alt=""/>
                             </div>    
                         ))}
