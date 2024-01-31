@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function Features({selected, onChange}) {
     function handleCheckboxClick(ev) {
        const {checked, name} = ev.target;
