@@ -17,6 +17,7 @@ export default function PlacesFormPage() {
     const [checkOut, setCheckOut] = useState('');
     const [maxGuests, setMaxGuests] = useState('');
     const [redirect, setRedirect] = useState(false);
+    const [price, setPrice] = useState(100);
     useEffect(() => {
         if (!id) {
             return; 
@@ -32,6 +33,7 @@ export default function PlacesFormPage() {
             setCheckIn(data.checkIn);
             setCheckOut(data.checkOut);
             setMaxGuests(data.maxGuests);
+            setPrice(data.price);
         })
     }, [id]);
 
@@ -40,7 +42,7 @@ export default function PlacesFormPage() {
         const placeData = {
             title, address, addedPhotos, 
             description, features, extraInfo, 
-            checkIn, checkOut, maxGuests
+            checkIn, checkOut, maxGuests, price,
         };
         if (id) {
             await axios.put('/places',  
@@ -78,7 +80,7 @@ export default function PlacesFormPage() {
                     <h2 className="text-xl mt-4">Extra Info</h2>
                     <textarea value={extraInfo} onChange={ev=> setExtraInfo(ev.target.value)} placeholder="Anything else?" />
                     <h2 className="text-xl mt-4">Additional Notes</h2>
-                    <div className="grid gap-2 sm:grid-cols-3">
+                    <div className="grid gap-2 grid-cols-2 md:grid-cols-4">
                         <div>
                             <h3 className="mt-2 -mb-1">Check in Time</h3>
                             <input type="text" 
@@ -96,6 +98,12 @@ export default function PlacesFormPage() {
                             <input type="number" 
                                    value={maxGuests} 
                                    onChange={ev=> setMaxGuests(ev.target.value)}/>
+                        </div>
+                        <div>
+                            <h3 className="mt-2 -mb-1">Price per night</h3>
+                            <input type="number" 
+                                   value={price} 
+                                   onChange={ev=> setPrice(ev.target.value)}/>
                         </div>
                     </div>
                     <button className="primary my-4">Save</button>
