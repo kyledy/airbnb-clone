@@ -1,3 +1,13 @@
+## Features 
+<img src="images/sample1.png" alt="Sample Image" width="50%" />
+<img src="images/sample2.png" alt="Sample Image" width="50%" />
+<img src="images/sample3.png" alt="Sample Image" width="50%" />
+<img src="images/sample4.png" alt="Sample Image" width="50%" />
+<img src="images/sample5.png" alt="Sample Image" width="50%" />
+<img src="images/sample6.png" alt="Sample Image" width="50%" />
+<img src="images/sample7.png" alt="Sample Image" width="50%" />
+<img src="images/sample8.png" alt="Sample Image" width="50%" />
+
 ## Description
 Airbnb clone website built using MongoDB, Express, React, and Node.js. Originally kept on my local machine but recently uploaded to GitHub after some modernization.
 
