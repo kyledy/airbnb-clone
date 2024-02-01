@@ -12,15 +12,15 @@ I really like the design, interface and functionality of Airbnb's website, so I 
 - Enter "npm install" to install all the required dependencies. 
 - Run the client and server-side scripts, as outlined below. 
 
-# Server 
+### Server 
 - Set the current working directory to the api folder. 
 - Enter "npx nodemon index.js". 
 
-# Client 
+### Client 
 - Set the current working directory to the client folder. 
 - Enter "yarn dev". 
 
-## Credits 
+### Credits 
 Majority of the source code and styles are adapted from the YouTube channel "Coding with Dawid".
 
 Most of the icons used in the project are taken from heroicons.com.
