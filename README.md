@@ -1,4 +1,4 @@
-## Features 
+## Features -- video possibly coming soon!
 <div style="display: flex;">
     <img src="images/sample1.png" alt="Sample Image" width="50%" />
     <img src="images/sample2.png" alt="Sample Image" width="50%" />
