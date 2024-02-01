@@ -1,14 +1,8 @@
-## Important Information
-I am currently still in the process of a full-scale refactoring of this project and keeping it up to date. 
-To be completed within the next two weeks are: 
-- Adding screenshots of the modified UI styles
-- Hosting this project on an AWS/Azure platform
-
 ## Description
-Airbnb clone website built using MongoDB, Express, React, and Node.js. Originally kept on my local machine but recently uploaded to GitHub after some lengthy compatibility issues.
+Airbnb clone website built using MongoDB, Express, React, and Node.js. Originally kept on my local machine but recently uploaded to GitHub after some modernization.
 
 ## Rationale 
-I really like the interface and functionality of Airbnb's website, so I wanted to see if I could make something similar. This project helped me gain a good introduction to React and full-stack development.
+I really like the design, interface and functionality of Airbnb's website, so I wanted to see if I could make something similar. This project helped me gain a good introduction to React and full-stack development. I'm also really into traveling so it seemed like a good project to undertake!
 
 ## How to run the project locally
 - Make sure that you have Node.js installed on your computer. 
